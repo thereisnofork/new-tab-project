@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body {
+  /* position: relative; */
+}
+
+#bg {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box-qod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  margin: 20px auto 0;
+  border-radius: 56px;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  padding: 7px 3px;
+  background: rgba(0, 0, 0, 0.287);
+  box-shadow: 0 0 50px 22px rgba(0, 0, 0, 0.2) inset;
+}
+#box-qod > * {
+  margin: 0 10px;
+}
